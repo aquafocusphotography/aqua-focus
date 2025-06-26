@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aqua Focus Photography</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+<style>
+body { font-family: sans-serif; color: #1F2937; }
+</style>
+</head>
+<body>
+<!-- Hero Section -->
+<section class="bg-cover bg-center h-[60vh] flex items-center justify-center text-white text-center" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');">
+<div class="bg-black bg-opacity-50 p-6 rounded-xl">
+<h1 class="text-5xl font-bold mb-4">Aqua Focus Photography</h1>
+<p class="text-lg">For those real moments</p>
+</div>
+</section>
+
+<!-- About Us -->
+<section class="p-6 max-w-4xl mx-auto">
+<h2 class="text-3xl font-semibold mb-4">About Us</h2>
+<p>Aqua Focus Photography capturing those real moments and telling a story through the power of the camera.</p>
+<p class="mt-2 flex items-center gap-2">
+For inquiries, email us at
+<a href="mailto:photographyaquafocus@gmail.com" class="text-blue-600 underline flex items-center gap-1">
+📧 photographyaquafocus@gmail.com
+</a>
+</p>
+</section>
+
+<!-- Gallery -->
+<section class="bg-gray-100 py-10">
+<h2 class="text-3xl font-semibold text-center mb-6">Photo Gallery</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-6">
+<!-- Gallery images -->
+<img src="https://source.unsplash.com/600x400/?beach,coast,photography,1" alt="Beach 1" class="rounded-xl">
+<img src="https://source.unsplash.com/600x400/?beach,coast,photography,2" alt="Beach 2" class="rounded-xl">
+<img src="https://source.unsplash.com/600x400/?beach,coast,photography,3" alt="Beach 3" class="rounded-xl">
+<img src="https://source.unsplash.com/600x400/?beach,coast,photography,4" alt="Beach 4" class="rounded-xl">
+<img src="https://source.unsplash.com/600x400/?beach,coast,photography,5" alt="Beach 5" class="rounded-xl">
+<img src="https://source.unsplash.com/600x400/?beach,coast,photography,6" alt="Beach 6" class="rounded-xl">
+</div>
+</section>
+
+<!-- Portfolio -->
+<section class="p-6 max-w-4xl mx-auto">
+<h2 class="text-3xl font-semibold mb-4">Portfolio</h2>
+<p class="mb-4">A showcase of our featured work: family beach portraits, surf events, sunrise sessions, and editorial ocean shots.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<img src="https://source.unsplash.com/600x400/?beach,portrait,7" alt="Portfolio 7" class="rounded-xl">
+<img src="https://source.unsplash.com/600x400/?beach,portrait,8" alt="Portfolio 8" class="rounded-xl">
+<img src="https://source.unsplash.com/600x400/?beach,portrait,9" alt="Portfolio 9" class="rounded-xl">
+<img src="https://source.unsplash.com/600x400/?beach,portrait,10" alt="Portfolio 10" class="rounded-xl">
+</div>
+</section>
+
+<!-- Instagram Feed -->
+<section class="py-10 bg-blue-50 text-center">
+<h2 class="text-3xl font-semibold mb-4">Follow Us on Instagram</h2>
+<p class="mb-4">@aqua_focus_photography</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-6">
+<img src="https://source.unsplash.com/400x400/?beach,instagram,11" alt="Instagram 11" class="rounded-lg shadow-md">
+<img src="https://source.unsplash.com/400x400/?beach,instagram,12" alt="Instagram 12" class="rounded-lg shadow-md">
+<img src="https://source.unsplash.com/400x400/?beach,instagram,13" alt="Instagram 13" class="rounded-lg shadow-md">
+</div>
+<a href="https://www.instagram.com/aqua_focus_photography" target="_blank" class="mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded shadow">Follow on Instagram</a>
+</section>
+
+<!-- Booking Form -->
+<section class="py-10 px-6 max-w-2xl mx-auto">
+<h2 class="text-3xl font-semibold mb-6 text-center">Book a Session</h2>
+<form class="space-y-4">
+<input type="date" placeholder="Select a date" class="w-full p-2 border rounded">
+<input type="time" placeholder="Select a time" class="w-full p-2 border rounded">
+<input type="text" placeholder="Session Type (e.g., Family, Portrait, Surf Event)" class="w-full p-2 border rounded">
+<button type="submit" class="w-full bg-blue-600 text-white py-2 rounded">Book Now</button>
+</form>
+</section>
+
+<!-- Contact Section -->
+<section class="py-10 px-6 max-w-2xl mx-auto">
+<h2 class="text-3xl font-semibold mb-6 text-center">Contact Us</h2>
+<form class="space-y-4">
+<input type="text" placeholder="Your Name" class="w-full p-2 border rounded">
+<input type="email" placeholder="Your Email" class="w-full p-2 border rounded">
+<textarea rows="5" placeholder="Your Message" class="w-full p-2 border rounded"></textarea>
+<button type="submit" class="w-full bg-blue-600 text-white py-2 rounded">Send Message</button>
+</form>
+<p class="text-center mt-4">
+<a href="mailto:photographyaquafocus@gmail.com" class="text-blue-600 underline">📧 photographyaquafocus@gmail.com</a>
+</p>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-white text-center py-4">
+<a href="mailto:photographyaquafocus@gmail.com" class="text-blue-400 underline mx-2">📧</a>
+<a href="https://www.instagram.com/aqua_focus_photography" target="_blank" class="text-pink-400 underline mx-2">📸</a>
+<span>&copy; 2025 Aqua Focus Photography. All rights reserved.</span>
+</footer>
+</body>
+</html>
